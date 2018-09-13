@@ -46,18 +46,19 @@ a:hover{
 .content-wrap{
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   overflow: auto;
 }
 .narrow{
   width:30%;
   float: left;
+  padding-left: 10px;
   min-height: 175px;
 }
 .wide{
   width: 70%;
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
   min-height: 175px;
 }
 
@@ -86,41 +87,14 @@ footer{
   color: #C7D59F;
 }
 
-/*Projects Experience
---------------------------------*/
-.projects {
-  background: #DADDD8;
-  color: black;
-}
-h3 ~ p{
-  margin:0;
-}
-
-/*Skills Experience
---------------------------------*/
-.skills {
-  background: #DADDD8;
-  color: black;
-}
-h3 ~ p{
-  margin:0;
-}
-
-/*Work Experience
---------------------------------*/
-.work {
-  background: #DADDD8;
-  color: black;
-}
-h3 ~ p{
-  margin:0;
-}
 
 
-/*Education
+/*Sections
 --------------------------------*/
-.education {
+.education, .work, .skills, .projects {
   background:#DADDD8 ;
   color: black;
   border-top-style: inset;
+
+
 }
