@@ -86,6 +86,25 @@ footer{
   color: #C7D59F;
 }
 
+/*Projects Experience
+--------------------------------*/
+.projects {
+  background: #DADDD8;
+  color: black;
+}
+h3 ~ p{
+  margin:0;
+}
+
+/*Skills Experience
+--------------------------------*/
+.skills {
+  background: #DADDD8;
+  color: black;
+}
+h3 ~ p{
+  margin:0;
+}
 
 /*Work Experience
 --------------------------------*/
